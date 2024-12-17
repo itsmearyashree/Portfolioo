@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   line-height: 1.6;
+   color: #020202;
+
+   justify-content: center;
+ }
+ 
+ /* Header */
+ header {
+   background: #ce72f9ef;
+   background-image:linear-gradient(rgba(162, 5, 159, 0.984) ,rgb(188, 75, 175));
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+
+ }
+ 
+ header h1 {
+   
+   margin: 0;
+   font-size: 2.5em;
+   text-align: center;
+ }
+ 
+ header p {
+
+
+
+
+   font-size: 1.2em;
+ }
+ 
+ /* Navigation */
+ nav {
+   background: #000000e9;
+   color: #fff;
+ }
+ 
+ nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+ }
+ 
+ nav ul li {
+   display: inline-block;
+   margin: 0 15px;
+ }
+ 
+ nav ul li a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.1em;
+   
+ }
+ 
+ nav ul li a:hover {
+   text-decoration: underline;
+ }
+ 
+ /* Sections */
+ .container {
+   width: 80%;
+   margin: auto;
+   overflow: hidden;
+   padding: 20px 0;
+   
+ }
+ 
+ section {
+   margin: 20px 0;
+   background-image:linear-gradient(rgb(239, 194, 252) ,rgb(227, 185, 232));
+ }
+ 
+ section h2 {
+   text-align: center;
+   margin-top: 0;
+   margin: 0;
+   color: #233334;
+   width: 100%; 
+   background-image:linear-gradient(#b856ccf0 ,rgb(215, 138, 243));
+ }
+ 
+ ul {
+   list-style: square;
+   margin-left: 20px;
+   
+ }
+ 
+ ul li {
+   margin-bottom: 10px;
+ }
+ 
+ /* Footer */
+ footer {
+   background: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px 0;
+ }
+ 
+ footer p {
+   margin: 0;
+ }
